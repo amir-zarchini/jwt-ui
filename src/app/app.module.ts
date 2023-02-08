@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { ForbiddenComponent } from './forbidden/forbidden.component';
 import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
 import {AppRoutingModule} from "./app.routing.module";
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import {AppRoutingModule} from "./app.routing.module";
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
